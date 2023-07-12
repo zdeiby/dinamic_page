@@ -1,0 +1,1023 @@
+CRITICAL - 2023-06-02 03:44:59 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:46:48 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:46:50 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:48:19 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:48:21 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:48:49 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:13 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:41 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 03:51:44 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-02 02:43:09 --> Invalid file: "welcome_messages.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_messages.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('welcome_messages', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_messages')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 02:43:23 --> Invalid file: "welcome_messages.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_messages.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('welcome_messages', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_messages')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 03:01:03 --> Class "App\Controller\BaseController" not found
+in APPPATH\Controllers\login.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\login.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\login')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\login')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\login', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 03:05:59 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\login.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\login')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 03:06:17 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\login.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\login')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 03:08:11 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\login.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\login')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 16:36:20 --> syntax error, unexpected token ",", expecting ";"
+in APPPATH\Helpers\operaciones_helper.php on line 3.
+ 1 APPPATH\Controllers\BaseController.php(53): helper([...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 16:36:55 --> syntax error, unexpected token ",", expecting ";"
+in APPPATH\Helpers\operaciones_helper.php on line 3.
+ 1 APPPATH\Controllers\BaseController.php(53): helper([...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 16:37:05 --> syntax error, unexpected token ",", expecting ";"
+in APPPATH\Helpers\operaciones_helper.php on line 3.
+ 1 APPPATH\Controllers\BaseController.php(53): helper([...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 16:54:01 --> Undefined variable $db
+in APPPATH\Controllers\Home.php on line 9.
+ 1 APPPATH\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 16:55:34 --> Undefined variable $db
+in APPPATH\Controllers\Home.php on line 9.
+ 1 APPPATH\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 16:57:31 --> Class "App\Models\UserModel\BaseController" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 16:58:30 --> Undefined variable $db
+in APPPATH\Controllers\Home.php on line 9.
+ 1 APPPATH\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 17:05:39 --> Class "App\Controllers\DatabaseConnection" not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 17:06:31 --> Class "App\Controllers\DatabaseConnection" not found
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 17:07:09 --> syntax error, unexpected variable "$this", expecting ";" or "{"
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 17:07:24 --> Too few arguments to function App\Controllers\Home::__construct(), 0 passed in C:\xampp\htdocs\cod4\system\CodeIgniter.php on line 906 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 17:58:31 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 18:28:05 --> syntax error, unexpected variable "$estructura"
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-02 18:31:17 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in C:\xampp\htdocs\cod4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\cod4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cod4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cod4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cod4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cod4\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cod4\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\cod4\app\Controllers\Home.php(14): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\cod4\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\cod4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\cod4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cod4\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-02 18:31:17 --> Unknown column 'users.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 18:40:52 --> Call to undefined method App\Models\userModel::returnType
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Home.php(15): CodeIgniter\Model->__call('returnType', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 18:49:01 --> Undefined variable $usuarios
+in APPPATH\Controllers\Home.php on line 15.
+ 1 APPPATH\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 18:59:59 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\cod4\app\Controllers\Home.php on line 17
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Home.php(17): view('estructura/body', 'deiby')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:19:12 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 5.
+ 1 APPPATH\Views\estructura\body.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:20:09 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 5.
+ 1 APPPATH\Views\estructura\body.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:20:26 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 5.
+ 1 APPPATH\Views\estructura\body.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:20:47 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 5.
+ 1 APPPATH\Views\estructura\body.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:21:26 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 5.
+ 1 APPPATH\Views\estructura\body.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [...], true)
+ 5 APPPATH\Controllers\Home.php(19): view('estructura/body', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:21:44 --> Undefined variable $one
+in APPPATH\Views\estructura\body.php on line 6.
+ 1 APPPATH\Views\estructura\body.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:22:39 --> Undefined variable $one
+in APPPATH\Views\estructura\body.php on line 6.
+ 1 APPPATH\Views\estructura\body.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:23:31 --> Undefined variable $one
+in APPPATH\Views\estructura\body.php on line 6.
+ 1 APPPATH\Views\estructura\body.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:24:39 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 5.
+ 1 APPPATH\Views\estructura\body.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:24:49 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 5.
+ 1 APPPATH\Views\estructura\body.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:25:02 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 5.
+ 1 APPPATH\Views\estructura\body.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [...], true)
+ 5 APPPATH\Controllers\Home.php(20): view('estructura/body', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:25:21 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:25:34 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 5.
+ 1 APPPATH\Views\estructura\body.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [...], true)
+ 5 APPPATH\Controllers\Home.php(20): view('estructura/body', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:25:46 --> Undefined variable $one
+in APPPATH\Views\estructura\body.php on line 6.
+ 1 APPPATH\Views\estructura\body.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [...], true)
+ 5 APPPATH\Controllers\Home.php(20): view('estructura/body', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:00:07 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:00:36 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:01:14 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:01:33 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:02:10 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:04:40 --> Array to string conversion
+in APPPATH\Models\userModel.php on line 59.
+ 1 APPPATH\Models\userModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php', 59)
+ 2 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:08:14 --> Array to string conversion
+in APPPATH\Models\userModel.php on line 59.
+ 1 APPPATH\Models\userModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php', 59)
+ 2 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:08:47 --> syntax error, unexpected token "{", expecting "]"
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:11:37 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\estructura\body.php on line 2.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 3 APPPATH\Controllers\Home.php(22): view('estructura/body', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:12:10 --> Attempt to read property "dato" on array
+in APPPATH\Views\estructura\body.php on line 4.
+ 1 APPPATH\Views\estructura\body.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "dato" on array', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:13:43 --> syntax error, unexpected single-quoted string "hola", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\estructura\body.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 3 APPPATH\Controllers\Home.php(22): view('estructura/body', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:14:05 --> syntax error, unexpected token "{"
+in APPPATH\Views\estructura\body.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 3 APPPATH\Controllers\Home.php(22): view('estructura/body', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:14:17 --> syntax error, unexpected token "{", expecting "]"
+in APPPATH\Views\estructura\body.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 3 APPPATH\Controllers\Home.php(22): view('estructura/body', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:14:29 --> syntax error, unexpected token "{"
+in APPPATH\Views\estructura\body.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 3 APPPATH\Controllers\Home.php(22): view('estructura/body', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:15:18 --> syntax error, unexpected token "{"
+in APPPATH\Views\estructura\body.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 3 APPPATH\Controllers\Home.php(22): view('estructura/body', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:19:33 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\userModel.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\userModel')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'userModel')
+ 6 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('userModel', [...], null)
+ 8 APPPATH\Controllers\Home.php(10): model('userModel')
+ 9 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+10 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:20:54 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\userModel.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\userModel')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'userModel')
+ 6 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('userModel', [...], null)
+ 8 APPPATH\Controllers\Home.php(10): model('userModel')
+ 9 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+10 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:21:57 --> Call to a member function getResult() on bool
+in APPPATH\Models\userModel.php on line 61.
+ 1 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:22:50 --> Call to a member function getResult() on bool
+in APPPATH\Models\userModel.php on line 61.
+ 1 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:23:22 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Models\userModel.php on line 63.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\userModel')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'userModel')
+ 6 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('userModel', [...], null)
+ 8 APPPATH\Controllers\Home.php(10): model('userModel')
+ 9 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+10 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:24:42 --> Call to a member function getResult() on bool
+in APPPATH\Models\userModel.php on line 61.
+ 1 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:26:14 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Models\userModel.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\userModel')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'userModel')
+ 6 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('userModel', [...], null)
+ 8 APPPATH\Controllers\Home.php(10): model('userModel')
+ 9 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+10 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:26:29 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Models\userModel.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\userModel')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'userModel')
+ 6 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('userModel', [...], null)
+ 8 APPPATH\Controllers\Home.php(10): model('userModel')
+ 9 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+10 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:26:51 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Models\userModel.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\userModel')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'userModel')
+ 6 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('userModel', [...], null)
+ 8 APPPATH\Controllers\Home.php(10): model('userModel')
+ 9 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+10 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:26:58 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Models\userModel.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\userModel')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'userModel')
+ 6 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('userModel', [...], null)
+ 8 APPPATH\Controllers\Home.php(10): model('userModel')
+ 9 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+10 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:27:46 --> Undefined array key "naxme"
+in APPPATH\Models\userModel.php on line 59.
+ 1 APPPATH\Models\userModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "naxme"', 'C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php', 59)
+ 2 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:28:57 --> Undefined array key "namse"
+in APPPATH\Models\userModel.php on line 59.
+ 1 APPPATH\Models\userModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namse"', 'C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php', 59)
+ 2 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:29:19 --> Undefined array key "ndame"
+in APPPATH\Models\userModel.php on line 59.
+ 1 APPPATH\Models\userModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ndame"', 'C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php', 59)
+ 2 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:35:48 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\userModel.php on line 71.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\userModel')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'userModel')
+ 6 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('userModel', [...], null)
+ 8 APPPATH\Controllers\Home.php(10): model('userModel')
+ 9 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+10 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:37:06 --> Declaration of App\Models\userModel::update($id, $objeto) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\userModel.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 20:38:39 --> Undefined array key "nombre"
+in APPPATH\Models\userModel.php on line 71.
+ 1 APPPATH\Models\userModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php', 71)
+ 2 APPPATH\Controllers\Home.php(23): App\Models\userModel->updates('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:39:00 --> Call to a member function getResult() on bool
+in APPPATH\Models\userModel.php on line 73.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\userModel->updates('1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:39:14 --> Undefined variable $result
+in APPPATH\Models\userModel.php on line 75.
+ 1 APPPATH\Models\userModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php', 75)
+ 2 APPPATH\Controllers\Home.php(23): App\Models\userModel->updates('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-02 20:41:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id='1'' at line 1 in C:\xampp\htdocs\cod4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\cod4\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE users wh...', 0)
+#1 C:\xampp\htdocs\cod4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE users wh...')
+#2 C:\xampp\htdocs\cod4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE users wh...')
+#3 C:\xampp\htdocs\cod4\app\Models\userModel.php(79): CodeIgniter\Database\BaseConnection->query('DELETE users wh...')
+#4 C:\xampp\htdocs\cod4\app\Controllers\Home.php(24): App\Models\userModel->deleteOne('1')
+#5 C:\xampp\htdocs\cod4\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\cod4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cod4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cod4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-02 20:41:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id='1'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE users where id=\'1\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE users where id=\'1\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE users where id=\'1\';')
+ 4 APPPATH\Models\userModel.php(79): CodeIgniter\Database\BaseConnection->query('DELETE users where id=\'1\';')
+ 5 APPPATH\Controllers\Home.php(24): App\Models\userModel->deleteOne('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:41:57 --> Call to a member function getResult() on bool
+in APPPATH\Models\userModel.php on line 80.
+ 1 APPPATH\Controllers\Home.php(24): App\Models\userModel->deleteOne('1')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:42:20 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:43:58 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:44:09 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 20:44:30 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:25:04 --> Undefined variable $validationRules
+in APPPATH\Models\userModel.php on line 67.
+ 1 APPPATH\Models\userModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validationRules', 'C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php', 67)
+ 2 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:25:54 --> Undefined variable $validationRules
+in APPPATH\Models\userModel.php on line 67.
+ 1 APPPATH\Models\userModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validationRules', 'C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php', 67)
+ 2 APPPATH\Controllers\Home.php(21): App\Models\userModel->post([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:33:03 --> Undefined variable $one
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:33:42 --> Undefined variable $one
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:34:33 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:36:11 --> Class "App\Controllers\userModel" not found
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:38:05 --> Undefined variable $db
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:39:07 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:45:19 --> custom is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('custom', true)
+ 2 APPPATH\Controllers\Home.php(15): db_connect('custom')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:46:05 --> Class "App\Models\BaseController" not found
+in APPPATH\Controllers\Home.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:46:18 --> Class "App\Models\BaseController" not found
+in APPPATH\Controllers\Home.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:54:54 --> custom is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('custom', true)
+ 2 APPPATH\Controllers\Home.php(18): db_connect('custom')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:55:01 --> Class "App\Controllers\userModel" not found
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:55:19 --> Undefined variable $db
+in APPPATH\Controllers\Home.php on line 19.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:57:40 --> Undefined property: App\Controllers\Home::$db
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$db', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:58:20 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 16.
+ 1 APPPATH\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 22:59:49 --> Undefined variable $db
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 23:03:36 --> Class "App\Controllers\Database" not found
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 23:04:06 --> Call to undefined method App\Controllers\BaseController::connect()
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 23:05:09 --> Class "App\Controllers\database" not found
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 23:12:59 --> Undefined variable $name
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 23:13:09 --> Undefined variable $name
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 23:36:07 --> Call to a member function GETusuarios() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 23:36:47 --> Call to a member function GETusuarios() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 23:37:27 --> syntax error, unexpected variable "$this", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,849 @@
+CRITICAL - 2023-07-09 00:22:17 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Home.php(35): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->fc_textos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:22:45 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Home.php(35): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->fc_textos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:23:23 --> Allowed fields must be specified for model: "App\Models\M_textos"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_textos')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Home.php(35): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->fc_textos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:51:28 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:51:50 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:52:07 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:52:07 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:52:08 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:52:08 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:53:49 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textosc()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:53:50 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textosc()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:53:50 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textosc()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:54:33 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:54:37 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:56:57 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textosUfm()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 00:57:30 --> Class "App\Controllers\M_textos" not found
+in APPPATH\Controllers\c_ufm.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textosUfm()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:07:33 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 29.
+ 1 APPPATH\Controllers\c_ufm.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:08:33 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 29.
+ 1 APPPATH\Controllers\c_ufm.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:09:19 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 29.
+ 1 APPPATH\Controllers\c_ufm.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:09:37 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 29.
+ 1 APPPATH\Controllers\c_ufm.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:10:27 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:10:40 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:11:15 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:11:40 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:19 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:19 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:20 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:20 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:20 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:20 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:20 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:20 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:21 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->fc_textosUfm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:12:41 --> Undefined variable $titulo
+in APPPATH\Controllers\c_ufm.php on line 26.
+ 1 APPPATH\Controllers\c_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->ufm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:14:30 --> Undefined variable $titulo
+in APPPATH\Controllers\C_ufm.php on line 26.
+ 1 APPPATH\Controllers\C_ufm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_ufm.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->ufm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:15:17 --> Undefined variable $titulo
+in APPPATH\Controllers\C_ufm.php on line 24.
+ 1 APPPATH\Controllers\C_ufm.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_ufm.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->ufm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:15:28 --> Undefined variable $titulo
+in APPPATH\Controllers\C_ufm.php on line 24.
+ 1 APPPATH\Controllers\C_ufm.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_ufm.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->ufm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:18:33 --> Undefined variable $data
+in APPPATH\Controllers\C_ufm.php on line 44.
+ 1 APPPATH\Controllers\C_ufm.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_ufm.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->ufm()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:18:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update(3, [...])
+ 4 APPPATH\Controllers\C_ufm.php(44): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->ufm()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:19:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update(3, [...])
+ 4 APPPATH\Controllers\C_ufm.php(44): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->ufm()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:19:25 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update(3, [...])
+ 4 APPPATH\Controllers\C_ufm.php(44): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->ufm()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:38:34 --> Undefined variable $tof
+in APPPATH\Views\welcome_message.php on line 189.
+ 1 APPPATH\Views\welcome_message.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tof', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\welcome_message.php', 189)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:54:21 --> Undefined variable $tof
+in APPPATH\Views\contactenos.php on line 80.
+ 1 APPPATH\Views\contactenos.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tof', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\contactenos.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\contactenos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 5 APPPATH\Controllers\c_contactenos.php(18): view('contactenos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 01:58:04 --> Call to a member function isValid() on null
+in APPPATH\Controllers\c_guardarImg.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:06:35 --> Allowed fields must be specified for model: "App\Models\M_textos"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_textos')
+ 2 SYSTEMPATH\BaseModel.php(919): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 4 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update(1, [...])
+ 5 APPPATH\Controllers\Home.php(36): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->fc_textos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:23:57 --> syntax error, unexpected token "=>"
+in APPPATH\Views\contactenos.php on line 82.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(27): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:26:02 --> syntax error, unexpected token "=>"
+in APPPATH\Views\contactenos.php on line 82.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(27): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:26:17 --> syntax error, unexpected token "=>"
+in APPPATH\Views\contactenos.php on line 82.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(27): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:26:23 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:26:23 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:26:58 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:26:58 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:27:36 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:27:36 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:28:37 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:28:37 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:28:39 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:28:39 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:28:50 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:28:50 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:28:53 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:28:53 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:29:01 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:29:01 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:29:04 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:29:04 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(23): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:30:10 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:30:10 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(25): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 02:31:25 --> mysqli_sql_exception: Column 'barrio' cannot be null in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ufm\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ufm\app\Controllers\c_contactenos.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+#10 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-09 02:31:25 --> Column 'barrio' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `puntosAtencion` (`barrio`, `direccion`) VALUES (:barrio:, :direccion:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\c_contactenos.php(26): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:31:53 --> syntax error, unexpected token "=>"
+in APPPATH\Views\contactenos.php on line 82.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(29): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:32:08 --> syntax error, unexpected token "=>"
+in APPPATH\Views\contactenos.php on line 82.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(29): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:32:28 --> syntax error, unexpected token "=>"
+in APPPATH\Views\contactenos.php on line 82.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(29): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:32:55 --> syntax error, unexpected token "=>"
+in APPPATH\Views\contactenos.php on line 82.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(29): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:33:47 --> syntax error, unexpected token "=>"
+in APPPATH\Views\contactenos.php on line 82.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(30): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:39:53 --> syntax error, unexpected token "?"
+in APPPATH\Views\contactenos.php on line 84.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(30): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:40:07 --> syntax error, unexpected token "echo"
+in APPPATH\Views\contactenos.php on line 84.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(30): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 02:40:17 --> syntax error, unexpected identifier "json_encode"
+in APPPATH\Views\contactenos.php on line 84.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(30): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 03:01:31 --> syntax error, unexpected token "class"
+in APPPATH\Views\contactenos.php on line 91.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(30): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 03:03:06 --> Array to string conversion
+in APPPATH\Views\contactenos.php on line 87.
+ 1 APPPATH\Views\contactenos.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\contactenos.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\contactenos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 5 APPPATH\Controllers\c_contactenos.php(30): view('contactenos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 03:06:02 --> syntax error, unexpected token "/"
+in APPPATH\Views\contactenos.php on line 87.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contactenos', [], true)
+ 3 APPPATH\Controllers\c_contactenos.php(30): view('contactenos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_contactenos->contactar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_contactenos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 03:46:50 --> syntax error, unexpected token "/"
+in APPPATH\Views\welcome_message.php on line 189.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('welcome_message', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 03:50:29 --> Undefined array key "text"
+in APPPATH\Views\welcome_message.php on line 194.
+ 1 APPPATH\Views\welcome_message.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "text"', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\welcome_message.php', 194)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 03:54:37 --> syntax error, unexpected token "/"
+in APPPATH\Views\ufm.php on line 44.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ufm', [], true)
+ 3 APPPATH\Controllers\C_ufm.php(22): view('ufm')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_ufm->ufmedellin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ufm))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 04:02:42 --> Error connecting to the database: mysqli_sql_exception: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('162.222.203.222', 'usuarios', 'DeibyGraciano', 'users_ufm', 3306, '', 0)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ufm\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ufm\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ufm\app\Controllers\C_admin_page.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\C_admin_page->adminPage()
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_admin_page))
+#9 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder in C:\xampp\htdocs\ufm\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ufm\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ufm\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ufm\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ufm\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ufm\app\Controllers\C_admin_page.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ufm\system\CodeIgniter.php(934): App\Controllers\C_admin_page->adminPage()
+#7 C:\xampp\htdocs\ufm\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_admin_page))
+#8 C:\xampp\htdocs\ufm\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ufm\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-09 04:02:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `textos`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\C_admin_page.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_admin_page->adminPage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_admin_page))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

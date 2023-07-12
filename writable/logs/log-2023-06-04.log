@@ -1,0 +1,343 @@
+CRITICAL - 2023-06-04 16:13:01 --> syntax error, unexpected token "."
+in APPPATH\Controllers\Home.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 17:18:59 --> Object of class App\Models\userModel could not be converted to string
+in APPPATH\Controllers\holamundo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\holamundo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\holamundo))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 17:24:03 --> Cannot use object of type App\Models\userModel as array
+in APPPATH\Controllers\holamundo.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\holamundo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\holamundo))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 17:25:26 --> Undefined variable $one
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $one', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 17:29:33 --> Undefined variable $variable
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 17:33:42 --> syntax error, unexpected token "}"
+in APPPATH\Models\userModel.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 APPPATH\Controllers\Home.php(55): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 17:34:11 --> syntax error, unexpected token "}"
+in APPPATH\Models\userModel.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\cod4\\app\\Models\\userModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\userModel')
+ 3 APPPATH\Controllers\Home.php(55): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\userModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 17:35:24 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-04 17:36:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10'' at line 1 in C:\xampp\htdocs\cod4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\cod4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\cod4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\cod4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\cod4\app\Models\userModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\cod4\app\Controllers\Home.php(56): App\Models\userModel->paginates(10)
+#5 C:\xampp\htdocs\cod4\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\cod4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\cod4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cod4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-04 17:36:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM users LIMIT \'10\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM users LIMIT \'10\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM users LIMIT \'10\';')
+ 4 APPPATH\Models\userModel.php(70): CodeIgniter\Database\BaseConnection->query('SELECT * FROM users LIMIT \'10\';')
+ 5 APPPATH\Controllers\Home.php(56): App\Models\userModel->paginates(10)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 17:58:06 --> Array to string conversion
+in APPPATH\Views\estructura\body.php on line 15.
+ 1 APPPATH\Views\estructura\body.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(77): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:03:13 --> Attempt to read property "pager" on array
+in APPPATH\Views\estructura\body.php on line 16.
+ 1 APPPATH\Views\estructura\body.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pager" on array', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(77): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:04:05 --> Attempt to read property "pager" on array
+in APPPATH\Views\estructura\body.php on line 16.
+ 1 APPPATH\Views\estructura\body.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pager" on array', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(77): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:05:34 --> Undefined variable $paginador
+in APPPATH\Views\estructura\body.php on line 15.
+ 1 APPPATH\Views\estructura\body.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paginador', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(77): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:06:38 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(77): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:06:54 --> Undefined variable $nombre
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(77): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:07:02 --> Undefined variable $pager
+in APPPATH\Views\estructura\body.php on line 14.
+ 1 APPPATH\Views\estructura\body.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(77): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:07:55 --> Undefined variable $pager
+in APPPATH\Views\estructura\body.php on line 16.
+ 1 APPPATH\Views\estructura\body.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(77): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:08:11 --> Undefined array key "pagers"
+in APPPATH\Views\estructura\body.php on line 16.
+ 1 APPPATH\Views\estructura\body.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pagers"', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(77): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:10:36 --> Undefined variable $datos
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:10:48 --> Undefined variable $datos
+in APPPATH\Views\estructura\body.php on line 11.
+ 1 APPPATH\Views\estructura\body.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\cod4\\app\\Views\\estructura\\body.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/body', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('estructura/body', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:26:14 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(341): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(332): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Home.php(73): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->imagenManipulacion()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:28:06 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(341): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(332): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Home.php(73): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->imagenManipulacion()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:28:16 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(341): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(332): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Home.php(73): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->imagenManipulacion()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:29:52 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(341): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(332): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Home.php(73): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->imagenManipulacion()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:30:05 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(341): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(332): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Home.php(73): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->imagenManipulacion()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 18:30:51 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(341): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(332): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Home.php(73): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->imagenManipulacion()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 21:33:36 --> Call to a member function set() on null
+in APPPATH\Controllers\myControler.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\myControler->ponerDatos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\myControler))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 21:33:52 --> Call to a member function set() on null
+in APPPATH\Controllers\myControler.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\myControler->ponerdatos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\myControler))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 21:34:38 --> Call to a member function set() on null
+in APPPATH\Controllers\myControler.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\myControler->ponerdatos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\myControler))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-04 21:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-04 21:39:36 --> Constant expression contains invalid operations
+in APPPATH\Controllers\myControler.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-04 21:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-04 21:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,251 @@
+CRITICAL - 2023-06-18 21:16:51 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-18 21:19:20 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-18 21:19:22 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-18 20:48:35 --> Undefined variable $show
+in APPPATH\Views\galeria.php on line 93.
+ 1 APPPATH\Views\galeria.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $show', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria', [], true)
+ 5 APPPATH\Controllers\c_galeria.php(18): view('galeria')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria->galerie()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 20:48:53 --> Undefined variable $datos
+in APPPATH\Views\galeria.php on line 97.
+ 1 APPPATH\Views\galeria.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria', [], true)
+ 5 APPPATH\Controllers\c_galeria.php(18): view('galeria')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria->galerie()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 20:52:45 --> Undefined variable $props
+in APPPATH\Views\galeria.php on line 114.
+ 1 APPPATH\Views\galeria.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $props', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php', 114)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria', [], true)
+ 5 APPPATH\Controllers\c_galeria.php(18): view('galeria')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria->galerie()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 20:53:49 --> Undefined variable $props
+in APPPATH\Views\galeria.php on line 115.
+ 1 APPPATH\Views\galeria.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $props', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria', [], true)
+ 5 APPPATH\Controllers\c_galeria.php(18): view('galeria')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria->galerie()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 20:54:05 --> Undefined variable $duration
+in APPPATH\Views\galeria.php on line 116.
+ 1 APPPATH\Views\galeria.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duration', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria', [], true)
+ 5 APPPATH\Controllers\c_galeria.php(18): view('galeria')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria->galerie()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:09:51 --> Call to undefined method App\Controllers\c_galeria_videos::respond()
+in APPPATH\Controllers\c_galeria_videos.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:11:23 --> Call to a member function findAll() on string
+in APPPATH\Controllers\c_galeria_videos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:11:48 --> Undefined property: App\Controllers\c_galeria_videos::$model
+in APPPATH\Controllers\c_galeria_videos.php on line 20.
+ 1 APPPATH\Controllers\c_galeria_videos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_galeria_videos::$model', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_galeria_videos.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:12:44 --> Undefined property: App\Controllers\c_galeria_videos::$model
+in APPPATH\Controllers\c_galeria_videos.php on line 20.
+ 1 APPPATH\Controllers\c_galeria_videos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_galeria_videos::$model', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_galeria_videos.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:12:58 --> Call to a member function findAll() on string
+in APPPATH\Controllers\c_galeria_videos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:13:25 --> Call to a member function findAll() on string
+in APPPATH\Controllers\c_galeria_videos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:13:45 --> Call to a member function findAll() on string
+in APPPATH\Controllers\c_galeria_videos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:14:33 --> Undefined property: App\Controllers\c_galeria_videos::$m_multimedia
+in APPPATH\Controllers\c_galeria_videos.php on line 19.
+ 1 APPPATH\Controllers\c_galeria_videos.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_galeria_videos::$m_multimedia', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_galeria_videos.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:18:45 --> Call to undefined function App\Controllers\m_multimedia()
+in APPPATH\Controllers\c_galeria_videos.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:18:58 --> Undefined variable $m_multimedia
+in APPPATH\Controllers\c_galeria_videos.php on line 20.
+ 1 APPPATH\Controllers\c_galeria_videos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $m_multimedia', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_galeria_videos.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:19:58 --> Call to undefined method App\Controllers\c_galeria_videos::respond()
+in APPPATH\Controllers\c_galeria_videos.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:20:16 --> Object of class App\Controllers\c_galeria_videos could not be converted to string
+in APPPATH\Controllers\c_galeria_videos.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:20:40 --> Call to undefined method App\Controllers\c_galeria_videos::respond()
+in APPPATH\Controllers\c_galeria_videos.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:21:53 --> Call to undefined method App\Controllers\c_galeria_videos::respond()
+in APPPATH\Controllers\c_galeria_videos.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:22:12 --> syntax error, unexpected token "var"
+in APPPATH\Controllers\c_galeria_videos.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_galeria_videos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_galeria_videos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_galeria_videos')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_galeria_videos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:26:33 --> Undefined variable $datos
+in APPPATH\Views\galeria_videos.php on line 103.
+ 1 APPPATH\Views\galeria_videos.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:29:12 --> Array to string conversion
+in APPPATH\Views\galeria_videos.php on line 103.
+ 1 APPPATH\Views\galeria_videos.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:32:12 --> Attempt to read property "name" on array
+in APPPATH\Views\galeria_videos.php on line 80.
+ 1 APPPATH\Views\galeria_videos.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:33:54 --> Attempt to read property "name" on array
+in APPPATH\Views\galeria_videos.php on line 80.
+ 1 APPPATH\Views\galeria_videos.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:34:35 --> Attempt to read property "name" on array
+in APPPATH\Views\galeria_videos.php on line 79.
+ 1 APPPATH\Views\galeria_videos.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:35:05 --> Attempt to read property "name" on array
+in APPPATH\Views\galeria_videos.php on line 79.
+ 1 APPPATH\Views\galeria_videos.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 22:44:43 --> syntax error, unexpected integer "100", expecting "," or ";"
+in APPPATH\Views\galeria_videos.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 3 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:06:48 --> Unclosed '{' on line 6
+in APPPATH\Controllers\c_loginadm.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_loginadm.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_loginadm')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_loginadm')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_loginadm', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

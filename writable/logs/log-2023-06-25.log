@@ -1,0 +1,174 @@
+CRITICAL - 2023-06-25 19:40:14 --> Cannot access offset of type string on string
+in APPPATH\Views\page_multimedia_videos.php on line 83.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page_multimedia_videos', [], true)
+ 4 APPPATH\Controllers\c_pages_multimedia.php(18): view('page_multimedia_videos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_multimedia->show('videos-de-ensayo')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_multimedia))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 20:30:34 --> Undefined array key "url"
+in APPPATH\Views\galeria_videos.php on line 85.
+ 1 APPPATH\Views\galeria_videos.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 20:32:34 --> Undefined array key "url"
+in APPPATH\Views\galeria_videos.php on line 85.
+ 1 APPPATH\Views\galeria_videos.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "url"', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 20:33:26 --> Undefined array key "name"
+in APPPATH\Views\galeria_videos.php on line 90.
+ 1 APPPATH\Views\galeria_videos.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 20:33:47 --> Undefined variable $noti
+in APPPATH\Views\galeria_videos.php on line 94.
+ 1 APPPATH\Views\galeria_videos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noti', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 20:43:54 --> Class "App\Controllers\m_noticias" not found
+in APPPATH\Controllers\C_agg_videos.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_agg_videos->aggVideos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_agg_videos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 20:48:15 --> Undefined variable $multimedia
+in APPPATH\Views\agg_videos.php on line 30.
+ 1 APPPATH\Views\agg_videos.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $multimedia', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\agg_videos.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\agg_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('agg_videos', [], true)
+ 5 APPPATH\Controllers\C_agg_videos.php(38): view('agg_videos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_agg_videos->aggVideos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_agg_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 21:47:48 --> Undefined array key "titulo"
+in APPPATH\Controllers\C_agg_videos.php on line 29.
+ 1 APPPATH\Controllers\C_agg_videos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_agg_videos.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_agg_videos->aggVideos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_agg_videos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 21:47:50 --> Undefined array key "titulo"
+in APPPATH\Controllers\C_agg_videos.php on line 29.
+ 1 APPPATH\Controllers\C_agg_videos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_agg_videos.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_agg_videos->aggVideos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_agg_videos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 21:47:52 --> Undefined array key "titulo"
+in APPPATH\Controllers\C_agg_videos.php on line 29.
+ 1 APPPATH\Controllers\C_agg_videos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_agg_videos.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_agg_videos->aggVideos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_agg_videos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 22:04:18 --> end(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Views\galeria_videos.php on line 85.
+ 1 APPPATH\Views\galeria_videos.php(85): end(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 22:05:07 --> end(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Views\galeria_videos.php on line 85.
+ 1 APPPATH\Views\galeria_videos.php(85): end(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 22:05:45 --> end(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Views\galeria_videos.php on line 90.
+ 1 APPPATH\Views\galeria_videos.php(90): end(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\galeria_videos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('galeria_videos', [], true)
+ 5 APPPATH\Controllers\c_galeria_videos.php(22): view('galeria_videos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_galeria_videos->galeria_videos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_galeria_videos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 22:08:25 --> Cannot access offset of type string on string
+in APPPATH\Views\page_multimedia_videos.php on line 90.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page_multimedia_videos', [], true)
+ 4 APPPATH\Controllers\c_pages_multimedia.php(18): view('page_multimedia_videos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_multimedia->show('videos-de-ensayo')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_multimedia))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 22:09:16 --> Cannot access offset of type string on string
+in APPPATH\Views\page_multimedia_videos.php on line 90.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page_multimedia_videos', [], true)
+ 4 APPPATH\Controllers\c_pages_multimedia.php(18): view('page_multimedia_videos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_multimedia->show('videos-de-ensayo')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_multimedia))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 22:09:58 --> Cannot access offset of type string on string
+in APPPATH\Views\page_multimedia_videos.php on line 90.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page_multimedia_videos', [], true)
+ 4 APPPATH\Controllers\c_pages_multimedia.php(18): view('page_multimedia_videos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_multimedia->show('videos-de-ensayo')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_multimedia))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 22:10:35 --> syntax error, unexpected token "echo"
+in APPPATH\Views\page_multimedia_videos.php on line 87.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page_multimedia_videos', [], true)
+ 3 APPPATH\Controllers\c_pages_multimedia.php(18): view('page_multimedia_videos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_multimedia->show('videos-de-ensayo')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_multimedia))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 22:11:02 --> Cannot access offset of type string on string
+in APPPATH\Views\page_multimedia_videos.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page_multimedia_videos', [], true)
+ 4 APPPATH\Controllers\c_pages_multimedia.php(18): view('page_multimedia_videos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_multimedia->show('videos-de-ensayo')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_multimedia))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

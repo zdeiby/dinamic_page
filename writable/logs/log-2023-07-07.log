@@ -1,0 +1,38 @@
+CRITICAL - 2023-07-07 01:37:41 --> Cannot access offset of type string on string
+in APPPATH\Views\page_multimedia_videos.php on line 84.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page_multimedia_videos', [], true)
+ 4 APPPATH\Controllers\c_pages_multimedia.php(18): view('page_multimedia_videos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_multimedia->show('dsfsdfsdf')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_multimedia))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 01:38:01 --> Cannot access offset of type string on string
+in APPPATH\Views\page_multimedia_videos.php on line 84.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page_multimedia_videos', [], true)
+ 4 APPPATH\Controllers\c_pages_multimedia.php(18): view('page_multimedia_videos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_multimedia->show('dsfsdfsdf')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_multimedia))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 02:03:43 --> Undefined variable $segmentos
+in APPPATH\Controllers\C_admin_page.php on line 20.
+ 1 APPPATH\Controllers\C_admin_page.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $segmentos', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_admin_page.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_admin_page->adminPage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_admin_page))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-07 02:19:33 --> Undefined variable $tof
+in APPPATH\Views\admin-page.php on line 82.
+ 1 APPPATH\Views\admin-page.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tof', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\admin-page.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\admin-page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin-page', [], true)
+ 5 APPPATH\Controllers\C_admin_page.php(21): view('admin-page')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_admin_page->adminPage()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_admin_page))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

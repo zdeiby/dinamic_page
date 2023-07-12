@@ -1,0 +1,223 @@
+CRITICAL - 2023-06-30 19:31:07 --> Undefined variable $tof
+in APPPATH\Views\add-nav.php on line 35.
+ 1 APPPATH\Views\add-nav.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tof', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\add-nav.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\add-nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add-nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('add-nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 19:31:36 --> Undefined variable $tof
+in APPPATH\Views\add-nav.php on line 39.
+ 1 APPPATH\Views\add-nav.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tof', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\add-nav.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\add-nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add-nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('add-nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 19:54:04 --> Undefined variable $tof
+in APPPATH\Views\add-nav.php on line 33.
+ 1 APPPATH\Views\add-nav.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tof', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\add-nav.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\add-nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add-nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('add-nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 21:56:17 --> Undefined variable $tof
+in APPPATH\Views\estructura\nav.php on line 104.
+ 1 APPPATH\Views\estructura\nav.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tof', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('estructura/nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:11:34 --> Undefined variable $menu
+in APPPATH\Views\estructura\nav.php on line 279.
+ 1 APPPATH\Views\estructura\nav.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 279)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:11:50 --> Undefined variable $menu
+in APPPATH\Views\estructura\nav.php on line 279.
+ 1 APPPATH\Views\estructura\nav.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 279)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:12:29 --> Undefined variable $menu
+in APPPATH\Views\estructura\nav.php on line 279.
+ 1 APPPATH\Views\estructura\nav.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 279)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:12:44 --> Undefined variable $menu
+in APPPATH\Views\estructura\nav.php on line 279.
+ 1 APPPATH\Views\estructura\nav.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 279)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:12:54 --> Undefined variable $menu
+in APPPATH\Views\estructura\nav.php on line 279.
+ 1 APPPATH\Views\estructura\nav.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 279)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:13:13 --> Undefined variable $menu
+in APPPATH\Views\estructura\nav.php on line 279.
+ 1 APPPATH\Views\estructura\nav.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 279)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:13:32 --> Undefined variable $editable
+in APPPATH\Controllers\c_nav.php on line 25.
+ 1 APPPATH\Controllers\c_nav.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editable', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->nav()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:26:41 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_nav')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_nav')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_nav', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:26:49 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_nav')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_nav')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_nav', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:27:12 --> Array to string conversion
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:27:41 --> Array to string conversion
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:28:39 --> Array to string conversion
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:28:41 --> Array to string conversion
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:29:18 --> Array to string conversion
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:29:30 --> Array to string conversion
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:29:45 --> Array to string conversion
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:29:50 --> Array to string conversion
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:29:55 --> Array to string conversion
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:30:47 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_nav')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_nav')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_nav', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:32:55 --> print_r() expects at most 2 arguments, 3 given
+in APPPATH\Controllers\c_nav.php on line 24.
+ 1 APPPATH\Controllers\c_nav.php(24): print_r('asd', null, null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->navE()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 22:37:56 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\c_nav.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_nav.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_nav')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_nav')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_nav', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

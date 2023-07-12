@@ -1,0 +1,66 @@
+CRITICAL - 2023-06-28 01:14:56 --> Undefined variable $editable
+in APPPATH\Views\estructura\nav.php on line 2.
+ 1 APPPATH\Views\estructura\nav.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editable', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 01:23:34 --> Undefined variable $editable
+in APPPATH\Views\estructura\nav.php on line 2.
+ 1 APPPATH\Views\estructura\nav.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editable', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 01:31:30 --> Undefined variable $editable
+in APPPATH\Views\estructura\nav.php on line 2.
+ 1 APPPATH\Views\estructura\nav.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editable', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 01:32:41 --> Undefined variable $editable
+in APPPATH\Views\estructura\nav.php on line 2.
+ 1 APPPATH\Views\estructura\nav.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $editable', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_add_nav.php(18): view('estructura/nav', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_add_nav->editarNav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_add_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 01:43:43 --> Undefined array key "editable"
+in APPPATH\Views\estructura\nav.php on line 2.
+ 1 APPPATH\Views\estructura\nav.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "editable"', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_nav.php(20): view('estructura/nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->nav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-28 03:05:48 --> Undefined variable $nombre
+in APPPATH\Views\estructura\nav.php on line 214.
+ 1 APPPATH\Views\estructura\nav.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php', 214)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\estructura\\nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('estructura/nav', [], true)
+ 5 APPPATH\Controllers\c_nav.php(20): view('estructura/nav')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_nav->nav()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_nav))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

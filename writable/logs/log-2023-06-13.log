@@ -1,0 +1,5 @@
+WARNING - 2023-06-13 01:46:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$uri is deprecated in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

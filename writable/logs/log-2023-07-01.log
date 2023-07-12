@@ -1,0 +1,148 @@
+CRITICAL - 2023-07-01 00:28:44 --> Cannot redeclare App\Controllers\C_guardarImg::guardarImg()
+in APPPATH\Controllers\c_guardarImg.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-01 00:28:45 --> Cannot redeclare App\Controllers\C_guardarImg::guardarImg()
+in APPPATH\Controllers\c_guardarImg.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-01 00:38:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\c_guardarImg.php on line 23.
+ 1 APPPATH\Controllers\c_guardarImg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_guardarImg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 00:53:21 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\ufm\\system\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('index.php/app/Views/img/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('index.php/app/Views/img/')
+ 4 APPPATH\Controllers\c_guardarImg.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('index.php/app/Views/img/', '1688172801_7002bbe59a2767fec90e.bin')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 00:53:47 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\ufm\\system\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('index.php/app/Views/img/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('index.php/app/Views/img/')
+ 4 APPPATH\Controllers\c_guardarImg.php(26): CodeIgniter\HTTP\Files\UploadedFile->move('index.php/app/Views/img/', '1688172827_e24788e9a5ab300cb3ef.bin')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 00:54:26 --> Undefined constant "App\Controllers\local"
+in APPPATH\Controllers\c_guardarImg.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 01:11:51 --> syntax error, unexpected double-quoted string "imagen1", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\c_guardarImg.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_guardarImg.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\C_guardarImg')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\C_guardarImg')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\C_guardarImg', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 01:16:20 --> Undefined variable $newName
+in APPPATH\Controllers\c_guardarImg.php on line 23.
+ 1 APPPATH\Controllers\c_guardarImg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_guardarImg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 01:16:42 --> Undefined variable $newName
+in APPPATH\Controllers\c_guardarImg.php on line 23.
+ 1 APPPATH\Controllers\c_guardarImg.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_guardarImg.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:41:40 --> Call to a member function isValid() on null
+in APPPATH\Controllers\c_guardarImg.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:42:09 --> Call to a member function isValid() on null
+in APPPATH\Controllers\c_guardarImg.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:42:19 --> Call to a member function isValid() on null
+in APPPATH\Controllers\c_guardarImg.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:44:21 --> CodeIgniter\HTTP\IncomingRequest::getFile(): Argument #1 ($fileID) must be of type string, array given, called in C:\xampp\htdocs\ufm\app\Controllers\c_guardarImg.php on line 22
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 934.
+ 1 APPPATH\Controllers\c_guardarImg.php(22): CodeIgniter\HTTP\IncomingRequest->getFile([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:44:46 --> CodeIgniter\HTTP\IncomingRequest::getFile(): Argument #1 ($fileID) must be of type string, array given, called in C:\xampp\htdocs\ufm\app\Controllers\c_guardarImg.php on line 22
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 934.
+ 1 APPPATH\Controllers\c_guardarImg.php(22): CodeIgniter\HTTP\IncomingRequest->getFile([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:45:43 --> Call to a member function isValid() on null
+in APPPATH\Controllers\c_guardarImg.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:46:23 --> Attempt to read property "FormData" on null
+in APPPATH\Controllers\c_guardarImg.php on line 24.
+ 1 APPPATH\Controllers\c_guardarImg.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "FormData" on null', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_guardarImg.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:46:43 --> Attempt to read property "FormData" on null
+in APPPATH\Controllers\c_guardarImg.php on line 24.
+ 1 APPPATH\Controllers\c_guardarImg.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "FormData" on null', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_guardarImg.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:47:14 --> Call to a member function FormData() on null
+in APPPATH\Controllers\c_guardarImg.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:48:01 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\c_guardarImg.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\C_guardarImg.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\C_guardarImg')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\C_guardarImg')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\C_guardarImg', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:48:21 --> Call to a member function isValid() on null
+in APPPATH\Controllers\c_guardarImg.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 19:48:59 --> Undefined variable $data
+in APPPATH\Controllers\c_guardarImg.php on line 22.
+ 1 APPPATH\Controllers\c_guardarImg.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_guardarImg.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 23:23:06 --> Call to a member function isValid() on null
+in APPPATH\Controllers\c_guardarImg.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\C_guardarImg->guardarImg2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_guardarImg))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

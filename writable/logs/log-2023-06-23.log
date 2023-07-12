@@ -1,0 +1,412 @@
+CRITICAL - 2023-06-23 01:38:23 --> Undefined variable $id
+in APPPATH\Controllers\c_mas_noticias.php on line 17.
+ 1 APPPATH\Controllers\c_mas_noticias.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_mas_noticias.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mas_noticias->masNoticias()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mas_noticias))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 01:38:44 --> Undefined variable $id
+in APPPATH\Controllers\c_mas_noticias.php on line 17.
+ 1 APPPATH\Controllers\c_mas_noticias.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_mas_noticias.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mas_noticias->masNoticias()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mas_noticias))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 01:43:02 --> Undefined variable $noticias
+in APPPATH\Views\mas_noticias.php on line 45.
+ 1 APPPATH\Views\mas_noticias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\mas_noticias.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\mas_noticias.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mas_noticias', [], true)
+ 5 APPPATH\Controllers\c_mas_noticias.php(45): view('mas_noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mas_noticias->posteo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mas_noticias))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 02:01:05 --> syntax error, unexpected variable "$datos"
+in APPPATH\Controllers\c_mas_noticias.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_mas_noticias.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_mas_noticias')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_mas_noticias')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_mas_noticias', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:02:05 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\c_mas_noticias.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_mas_noticias.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_mas_noticias')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_mas_noticias')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_mas_noticias', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:06:56 --> Undefined variable $datos
+in APPPATH\Controllers\c_mas_noticias.php on line 51.
+ 1 APPPATH\Controllers\c_mas_noticias.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_mas_noticias.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mas_noticias->miMetodo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mas_noticias))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:07:11 --> Undefined variable $datos
+in APPPATH\Controllers\c_mas_noticias.php on line 51.
+ 1 APPPATH\Controllers\c_mas_noticias.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_mas_noticias.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mas_noticias->miMetodo()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mas_noticias))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:09:54 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\c_mas_noticias.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_mas_noticias.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_mas_noticias')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_mas_noticias')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_mas_noticias', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:33:06 --> Too few arguments to function App\Controllers\c_pages_controller::show(), 0 passed in C:\xampp\htdocs\ufm\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\c_pages_controller.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:37:27 --> end(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Views\page.php on line 13.
+ 1 APPPATH\Views\page.php(13): end(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(13): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('5522dsfsdfsdf')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:39:09 --> Class "App\Controllers\m_noticias" not found
+in APPPATH\Controllers\c_pages_controller.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('5522dsfsdfsdf')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:39:22 --> Undefined variable $title
+in APPPATH\Views\page.php on line 5.
+ 1 APPPATH\Views\page.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(13): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('5522dsfsdfsdf')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:39:34 --> Undefined variable $title
+in APPPATH\Views\page.php on line 5.
+ 1 APPPATH\Views\page.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(13): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('5522dsfsdfsdf')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:39:45 --> Undefined variable $title
+in APPPATH\Views\page.php on line 5.
+ 1 APPPATH\Views\page.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(13): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('5522dsfsdfsdf')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:49:05 --> Attempt to read property "created_at" on array
+in APPPATH\Controllers\c_pages_controller.php on line 11.
+ 1 APPPATH\Controllers\c_pages_controller.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "created_at" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('dsadasd')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:49:30 --> Undefined array key "created_at"
+in APPPATH\Controllers\c_pages_controller.php on line 11.
+ 1 APPPATH\Controllers\c_pages_controller.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('dsadasd')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:50:12 --> Attempt to read property "created_at" on array
+in APPPATH\Controllers\c_pages_controller.php on line 12.
+ 1 APPPATH\Controllers\c_pages_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "created_at" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('dsadasd')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:51:02 --> Attempt to read property "id" on array
+in APPPATH\Controllers\c_pages_controller.php on line 12.
+ 1 APPPATH\Controllers\c_pages_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('dsadasd')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:51:21 --> Undefined constant "App\Controllers\id"
+in APPPATH\Controllers\c_pages_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('dsadasd')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:51:34 --> Attempt to read property "id" on array
+in APPPATH\Controllers\c_pages_controller.php on line 12.
+ 1 APPPATH\Controllers\c_pages_controller.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('dsadasd')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:56:55 --> Undefined variable $data
+in APPPATH\Controllers\c_pages_controller.php on line 14.
+ 1 APPPATH\Controllers\c_pages_controller.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:58:02 --> Undefined variable $data
+in APPPATH\Controllers\c_pages_controller.php on line 14.
+ 1 APPPATH\Controllers\c_pages_controller.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:58:13 --> Cannot access offset of type string on string
+in APPPATH\Views\page.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 4 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:58:49 --> Cannot access offset of type string on string
+in APPPATH\Views\page.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 4 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 03:59:19 --> Cannot access offset of type string on string
+in APPPATH\Views\page.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 4 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:00:23 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\page.php on line 30.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 3 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:02:16 --> Cannot access offset of type string on string
+in APPPATH\Views\page.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 4 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:02:29 --> Cannot access offset of type string on string
+in APPPATH\Views\page.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 4 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:03:12 --> Undefined variable $noticiasScroll
+in APPPATH\Views\page.php on line 26.
+ 1 APPPATH\Views\page.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticiasScroll', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:04:17 --> Undefined variable $noti
+in APPPATH\Views\page.php on line 26.
+ 1 APPPATH\Views\page.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noti', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:04:20 --> Undefined variable $noti
+in APPPATH\Views\page.php on line 26.
+ 1 APPPATH\Views\page.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noti', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:04:33 --> Undefined variable $noticias
+in APPPATH\Views\page.php on line 13.
+ 1 APPPATH\Views\page.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(14): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:04:40 --> Undefined variable $noti
+in APPPATH\Views\page.php on line 26.
+ 1 APPPATH\Views\page.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noti', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(15): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:06:37 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\c_pages_controller.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_pages_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_pages_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_pages_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:06:44 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\c_pages_controller.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_pages_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_pages_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_pages_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:09:03 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\c_pages_controller.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ufm\\app\\Controllers\\c_pages_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\c_pages_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\c_pages_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\c_pages_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:10:15 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\page.php on line 30.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 3 APPPATH\Controllers\c_pages_controller.php(18): view('page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:12:07 --> Undefined array key "titulo"
+in APPPATH\Views\page.php on line 31.
+ 1 APPPATH\Views\page.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(18): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:12:30 --> Attempt to read property "titulo" on array
+in APPPATH\Views\page.php on line 31.
+ 1 APPPATH\Views\page.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(18): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:13:16 --> Undefined array key "titulo"
+in APPPATH\Views\page.php on line 31.
+ 1 APPPATH\Views\page.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(18): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:14:03 --> Attempt to read property "titulo" on array
+in APPPATH\Views\page.php on line 31.
+ 1 APPPATH\Views\page.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on array', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(18): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:14:19 --> Undefined array key "titulo"
+in APPPATH\Views\page.php on line 31.
+ 1 APPPATH\Views\page.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ufm\\app\\Views\\page.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 5 APPPATH\Controllers\c_pages_controller.php(18): view('page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:15:45 --> Cannot access offset of type string on string
+in APPPATH\Views\page.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 4 APPPATH\Controllers\c_pages_controller.php(18): view('page', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:18:46 --> Cannot access offset of type string on string
+in APPPATH\Views\page.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 4 APPPATH\Controllers\c_pages_controller.php(18): view('page', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 04:19:25 --> Cannot access offset of type string on string
+in APPPATH\Views\page.php on line 59.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page', [], true)
+ 4 APPPATH\Controllers\c_pages_controller.php(18): view('page', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_pages_controller->show('2023-06-21')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_pages_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
