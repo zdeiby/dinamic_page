@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
   $('.elemento-lectura').trigger('click');
-if(sessionStorage.getItem('audio')=='true'){
+//if(sessionStorage.getItem('audio')=='true'){
   // Crea un objeto de síntesis de voz
  var synthesis = window.speechSynthesis;
 
@@ -41,5 +41,5 @@ if(sessionStorage.getItem('audio')=='true'){
  });
 
   
-}
+//}
 });

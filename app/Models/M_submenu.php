@@ -4,16 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class M_menu extends Model
+class M_submenu extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'menu';
-    protected $primaryKey       = 'id';
+    protected $table            = 'submenu';
+    protected $primaryKey       = 'id_sub';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields = [ 'nombre','deleted'];
+    protected $allowedFields = ['submenu','created_by','slug'];
 
     // Dates
     protected $useTimestamps = false;
