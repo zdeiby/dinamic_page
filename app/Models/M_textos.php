@@ -8,12 +8,12 @@ class M_textos extends Model
 {
     protected $DBGroup          = 'default';
     protected $table            = 'textos';
-    protected $primaryKey       = 'id';
+    protected $primaryKey       = 'id_textos';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields = ['titulo', 'texto'];
+    protected $allowedFields = ['titulo', 'texto','text_by','url'];
 
     // Dates
     protected $useTimestamps = false;

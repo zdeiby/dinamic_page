@@ -146,7 +146,7 @@ try{
 <div>
 <nav class="navbar navbar-expand-md navbar-light fixed-top nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../../ufm/index.php">
+            <a class="navbar-brand" href="../../../../ufm/index.php">
                 <img src="https://cdnwordpresstest-f0ekdgevcngegudb.z01.azurefd.net/es/wp-content/uploads/2022/03/Open-Graph-.png" alt="" width="150" height="100">
             </a>
             <button id="myButton" class="navbar-toggler" type="button">
@@ -163,7 +163,7 @@ try{
                           <label id="m1"  class="elemento-lectura"><?php echo $value->nombre ?></label>
               </label>
                         <ul class="dropdown-menu submenu text-center div1" aria-labelledby="navbarDropdown">
-                            <li class="sd1"><b  class="delete b" >x</b><a id="sm1" dato="sm1" class="dropdown-item liT elemento-lectura " href="../../../ufm/index.php"contenteditable="<?php echo $tof ?>"><?php echo $value->submenu ?></a></li>
+                            <li class="sd1"><b  class="delete b" >x</b><a id="sm1" dato="sm1" class="dropdown-item liT elemento-lectura " href="../../../ufm/index.php/<?php echo $value->opcion ?>/<?php  echo $value->slug ?>"contenteditable="<?php echo $tof ?>"><?php echo $value->submenu ?></a></li>
                            <!-- <li class="sd2"><b  class="delete b" >x</b><a dato="sm2" class="dropdown-item liT elemento-lectura " href="../../../ufm/index.php/editar-inicio"contenteditable="<?php echo $tof ?>">Modificar inicio</a></li> -->
                           </ul>
                     </li>
@@ -207,7 +207,7 @@ try{
   <div class="mobile-buttons">
   <label style="font-size: 15px; background: #008CC3; border: 2px solid #008CC3; border-radius: 5px" class="btn-lectura">Lectura automatica</label>
     <label style="font-size: 15px; background: #008CC3; border: 2px solid #008CC3; border-radius: 5px" class="borrar">Eliminar</label>
-    <a style="text-decoration: none; color: white !important; padding-left: 4px"><label style="font-size: 15px; background: #008CC3; border: 2px solid #008CC3; border-radius: 5px" class="btn-editar">Editar Menu</label></a>
+    <a style="text-decoration: none; color: white !important; padding-left: 4px"><label style="font-size: 15px; background: #008CC3; border: 2px solid #008CC3; border-radius: 5px" class="btn-editar">Agregar menú</label></a>
   </div>
 </div>
 
@@ -328,9 +328,17 @@ if(sessionStorage.getItem('audio')=='true' ){
             
                  <div class="row">
                  <div class="col"> 
+                 <br>
+                 <br>
+                 <br>
                   <input type="text" id="menu" placeholder="Ingresa un nuevo menu"><br>
+                  <input type="radio" name="opcion" value="1" required>Tipo Inicio<br>
+                  <input type="radio" name="opcion" value="2">Tipo Noticia<br>
                  </div>
-                 <div class="col">   
+                 <div class="col">  
+                 <br>
+                 <br>
+                 <br> 
                  <button type="submit" class="btn btn-primary custom-button bton">Guardar</button> 
                  </div>     
                  </div>      
@@ -341,7 +349,11 @@ if(sessionStorage.getItem('audio')=='true' ){
 
 
           $('.bton').click(function(e){
-            let menu = $('#menu').val();
+          var opcion = $('input[name="opcion"]:checked').val();
+          console.log(opcion)
+            if(opcion !==undefined){
+               let menu = $('#menu').val();
+          
 
   
          //  console.log(menuText,menu);
@@ -349,7 +361,9 @@ if(sessionStorage.getItem('audio')=='true' ){
               $.ajax({
                   url: "../../../../../ufm/index.php/mi-controlador/aprobar",
                   method: "POST",
-                  data: {menu:menu},
+                  data:{menu:menu,
+                    opcion:opcion
+                        },
                   success: function(response) {
                   console.log(response)
                   location.reload();
@@ -360,6 +374,8 @@ if(sessionStorage.getItem('audio')=='true' ){
                     //  console.log(xhr.responseText);
                   }
               });
+            }
+           
             
           })
     })

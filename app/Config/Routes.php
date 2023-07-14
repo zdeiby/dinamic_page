@@ -58,9 +58,9 @@ $routes->post('contactenosdelete','c_contactenos::cDelete');  //borrar direccion
 $routes->post('sendinfo','c_loginadm::info'); //datos de login a controlador
 $routes->post('destroy','c_nav::destroySession');
 
-$routes->get('noticias/(:any)', 'c_pages_controller::show/$1'); // pagina dinamica
+$routes->get('1/(:any)', 'C_dinamic1::show/$1'); // pagina dinamica
 
-$routes->get('galeria-videos/(:any)','c_pages_multimedia::show/$1'); // pagina dinamica
+$routes->get('2/(:any)','C_dinamic2::show/$1'); // pagina dinamica
 
 $routes->get('uploads/(:any)', 'UploadsController::show/$1');  //carga de imagenes
 

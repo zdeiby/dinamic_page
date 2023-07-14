@@ -16,7 +16,7 @@ class c_loginadm extends BaseController{
 
     public function login(){
         $segmentos = $this->uri->getSegments();
-        $data['url']=$segmentos[0];
+       // $data['url']=$segmentos[1];
        // print_r($this->session);
          return view('loginadmin');
 }

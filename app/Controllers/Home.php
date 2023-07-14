@@ -4,6 +4,7 @@ namespace App\Controllers;
 use App\Models\userModel;
 use App\Models\M_textos;
 use App\Models\M_menu;
+use App\Models\M_inicio;
 use CodeIgniter\Database\Config;
 use CodeIgniter\Database\Query;
 
@@ -31,15 +32,12 @@ class Home extends BaseController
         
         // Hacer la unión y seleccionar las columnas requeridas
         $builder->join(  'submenu B', 'A.id = B.created_by', 'right');
-        $builder->select('A.id, B.id_sub, A.nombre, B.submenu, B.slug');
+        $builder->select('A.id, B.id_sub, A.nombre, B.submenu, B.slug,B.opcion');
 
         // Ejecutar la consulta
         $results = $builder->get()->getResult();
 
-        // Mostrar los resultados
-        foreach ($results as $row) {
-          echo $row->nombre . ' | ' . $row->submenu . ' | ' . $row->slug  . ' | ' . $row->id . ' | ' . $row->id_sub .  '<br>';
-      }
+     
         
       $segmentos = $this->uri->getSegments();
       $modelNav=new M_menu();
@@ -47,12 +45,12 @@ class Home extends BaseController
       $datos=['datosNav'=>$this->session->get(),
                           "nav"=>$results,
                          "menu"=> $send];
-      $model=new M_textos();
-      
-      $home=$model->findAll();
+   
+      $inicio=new M_inicio();
+      $inicioAll=$inicio->findAll();
       $datosView=[
                   "tof"=>"true",
-                  "home"=>$home
+                  "inicio"=>$inicioAll,
                  ];
 
 
@@ -65,7 +63,7 @@ class Home extends BaseController
       $data=['id'=>1,
             'titulo'=>$titulo,
             'texto'=>$texto];
-      $model=new M_textos();
+      $model=new M_inicio();
       $model->save($data);
       echo $titulo.$texto;
     }

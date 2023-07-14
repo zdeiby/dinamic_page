@@ -13,7 +13,7 @@ class M_submenu extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields = ['submenu','created_by','slug'];
+    protected $allowedFields = ['submenu','created_by','slug','opcion'];
 
     // Dates
     protected $useTimestamps = false;

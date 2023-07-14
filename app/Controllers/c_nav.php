@@ -3,6 +3,7 @@
 namespace App\Controllers;
 use App\Models\M_menu;
 use App\Models\M_submenu;
+use App\Models\M_textos;
 
 class c_nav extends BaseController{
     protected $helpers = ['url'];
@@ -23,18 +24,24 @@ class c_nav extends BaseController{
 }
     public function navE(){
         $menu= $this->request->getVar('menu');
+        $tipo = $this->request->getVar('opcion');
+        $cadena1 = strval( $tipo);
+
         $modelNav=new M_menu();
         $submenu=new M_submenu();
+        $textos=new M_textos();
+        $textoSinEspacios = str_replace(' ', '-', $menu);
         if($menu != ''){
-            $ultimoInsertado=$modelNav->insert(['nombre'=>$menu]);
-        $submenu->insert(['submenu' => $menu, 'created_by' => $ultimoInsertado, 'slug' => $menu]);  
+            $ultimoInsertado=$modelNav->insert(['nombre'=> $menu]);
+            $ultimoSubmenu=$submenu->insert(['submenu' => $menu, 'created_by' => $ultimoInsertado, 'slug' => $textoSinEspacios , 'opcion'=>$cadena1]);
+            $textos->insert(['titulo'=>'Ingrese un titulo','texto'=>'Ingrese un texto','text_by'=>$ultimoSubmenu,'url'=>'https://static.vecteezy.com/system/resources/thumbnails/002/282/910/small/elegant-white-background-free-vector.jpg']);
         };
       
         
         // Insertar en la tabla M_submenu
       //  
   
-     echo $ultimoInsertado;
+      echo $tipo;
     }
 
     public function destroySession(){
@@ -42,4 +49,5 @@ class c_nav extends BaseController{
         $this->session->destroy();
     }
     }
-    
+
+   // SELECT B.titulo, B.texto, B.url, A.submenu FROM submenu A RIGHT JOIN textos B ON A.id_sub=B.text_by;

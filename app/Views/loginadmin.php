@@ -103,7 +103,7 @@ body {
                     <br />
                     <button name="enviar" id="enviar" class="btn w-100" style="color: white; background-color: #00B0F6;">Ingresar</button>
                    <!-- <label class="pt-2" for="">¿Ha olvidado la contraseña?</label> -->
-                  <a href="../../ufm/index.php"> <button name="enviar" id="enviar" class="btn mt-4" style="color: white; background-color: #00B0F6;">Volver</button></a>
+                  <a href="../../ufm/index.php"> <button name="enviar" id="enviar" class="btn mt-4" style="color: white; background-color: #00B0F6;">Volver</button></a> 
 
                 </div>
 

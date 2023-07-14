@@ -186,12 +186,21 @@
 
 
 <div class="container pt-4 text-center pb-4">
-  <h3 class="pb-4  elemento-lectura" style="color:#00B0F6" contenteditable="<?php echo $tof ?>" id='titulo'><?php echo $inicio[0]['titulo']?></h3>
+<h3 class="pb-4 elemento-lectura" style="color:#00B0F6" contenteditable="<?php echo $tof ?>" id='titulo'>
+  <?php
+  if (isset($home[0]['titulo'])) {
+    echo $home[0]['titulo'];
+  }
+  ?>
+</h3>
   <div class="row">
     <div class="col-md-6">
       <div class="container pt-4 elemento-lectura">
         <p contenteditable="<?php echo $tof ?>" id="texto">
-        <?php echo $inicio[0]['texto']?> 
+        <?php 
+            if(isset($home[0]['texto'])){
+           echo $home[0]['texto'];
+            }?> 
         </p>
       </div>
     </div>

@@ -3,6 +3,9 @@
 namespace App\Controllers;
 use App\Models\m_noticias;
 use App\Models\M_menu;
+use App\Models\M_textos;
+use CodeIgniter\Database\Config;
+use CodeIgniter\Database\Query;
 
 
 
@@ -16,14 +19,19 @@ class c_mas_noticias extends BaseController{
     }
 
     public function masNoticias(){
-       
+        $db = Config::connect();
+        $builder = $db->table('menu A');
+        // Hacer la unión y seleccionar las columnas requeridas
+        $builder->join(  'submenu B', 'A.id = B.created_by', 'right');
+        $builder->select('A.id, B.id_sub, A.nombre, B.submenu, B.slug');
+        
+        $results = $builder->get()->getResult(); 
       
         $segmentos = $this->uri->getSegments();
         $model=new m_noticias();
         $modelNav=new M_menu();
         $send=$modelNav->findAll();
-        $datosNav=['datosNav'=>$this->session->get(),
-                            "nav"=>$send ];
+
         $titulo = $this->request->getVar('titulo');
         $url = $this->request->getVar('url');
         $texto = $this->request->getVar('texto');
@@ -37,6 +45,10 @@ class c_mas_noticias extends BaseController{
         if($datos['titulo'] !=''){
             var_dump($model->save($datos)); 
         }
+
+        $datosNav=['datosNav'=>$this->session->get(),
+                                  "nav"=>$results,
+                                 "menu"=> $send];
         
         $datos['noticias']=$model->findAll();
         $data['url']=$segmentos[0];
