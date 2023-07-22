@@ -146,8 +146,8 @@ try{
 <div>
 <nav class="navbar navbar-expand-md navbar-light fixed-top nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../../../../ufm/index.php">
-                <img src="https://cdnwordpresstest-f0ekdgevcngegudb.z01.azurefd.net/es/wp-content/uploads/2022/03/Open-Graph-.png" alt="" width="150" height="100">
+            <a class="navbar-brand pt-4" href="../../../../ufm/index.php">
+                <img src="//escuelavirtual.medellin.gov.co/campusvirtual/pluginfile.php/1/theme_moove/logo/1681880300/Logo%20Distrito.png" alt="" width="110" height="80">
             </a>
             <button id="myButton" class="navbar-toggler" type="button">
             <span class="navbar-toggler-icon"></span>
@@ -156,24 +156,90 @@ try{
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav tamano">
-                  <?php foreach ($nav as $value) { ?>
+                  <?php foreach ($menu as $value) { ?>
                 <li class="nav-item dropdown inicio d1"  onmouseover="showSubMenu(this)" onmouseleave="hideSubMenu(this)">
                        <b class="delete ">x</b>
                 <label class="nav-link dropdown " dato="m1"  id="navbarDropdown"  role="button" data-bs="dropdown" aria-expanded="false" contenteditable="<?php echo $tof ?>">
-                          <label id="m1"  class="elemento-lectura"><?php echo $value->nombre ?></label>
-              </label>
-                        <ul class="dropdown-menu submenu text-center div1" aria-labelledby="navbarDropdown">
-                            <li class="sd1"><b  class="delete b" >x</b><a id="sm1" dato="sm1" class="dropdown-item liT elemento-lectura " href="../../../ufm/index.php/<?php echo $value->opcion ?>/<?php  echo $value->slug ?>"contenteditable="<?php echo $tof ?>"><?php echo $value->submenu ?></a></li>
+                          <label id=""  class="elemento-lectura"><?php echo $value['nombre'] ?></label>
+              </label>  
+                <ul class="dropdown-menu submenu text-center div1" aria-labelledby="navbarDropdown">
+                      
+                        <?php foreach($nav as $submenue) {
+                        if($submenue->created_by == $value['id'] ) { ?> 
+                            <li class="sd1"><b  class="delete b" >x</b><a id="sm1" dato="sm1" class="dropdown-item liT elemento-lectura " href="../../../ufm/index.php/<?php echo $submenue->opcion ?>/<?php  echo $submenue->slug ?>"contenteditable="<?php echo $tof ?>"><?php echo $submenue->submenu ?></a></li>
                            <!-- <li class="sd2"><b  class="delete b" >x</b><a dato="sm2" class="dropdown-item liT elemento-lectura " href="../../../ufm/index.php/editar-inicio"contenteditable="<?php echo $tof ?>">Modificar inicio</a></li> -->
-                          </ul>
+                          <?php 
+                        }
+                        } ?>
+                        </ul>
                     </li>
+
+                    
+
                     <?php   } ?>
        
-                 
-                
+<!-- AGREGAR MENU -->
+                 <form class="inputs" method="">  
+                 <label ></label>
+            
+                 <div class="row">
+                 <div class="col"> 
+                  <input type="text" class="form-control" id="menu" placeholder="Menú">
+                  <input type="radio" name="opcion" value="1" required>Tipo Inicio<br>
+                  <input type="radio" name="opcion" value="2">Tipo Noticia<br>
+                 </div>
+                 <div class="col">  
+              
                
-            </div>
- <?php echo ( $nombre == ' ' ) ? '<a href="../../../ufm/index.php/login"><button type="button" class="btn btn-primary custom-button ">Login UFM</button></a>'
+               
+                 <button type="submit" class="btn btn-primary custom-button bton">Guardar</button> 
+                 </div>     
+                 </div>      
+                 </form>
+
+                 <form class="btonactualizar" method="">  
+                 <label ></label>
+                        <br>
+                
+                 <button type="submit" class="btn btn-primary custom-button bton2">Ver menú</button>     
+                 </form>
+
+<!--FIN DE AGREGAR MENU -->
+           
+
+ 
+                    
+
+
+
+
+
+ <form class="inputsub" method="" >  
+  <br>
+    <div class="row ">
+          <div class="col "> 
+          <input type="text" id="menusub" class="form-control" placeholder="submenú">
+        
+                  <input type="radio" name="opcion2" value="1" required>Tipo Inicio<br>
+                  <input type="radio" name="opcion2" value="2">Tipo Noticia<br>
+        
+          <select class="custom-select">
+            <option>Selecciona un menú</option>
+          <?php foreach ($menu as $value) { echo $value['nombre']?>
+            <option class="<?php echo$value['nombre'] ?>" id="<?php echo$value['id'] ?>" value="<?php echo $value['nombre'] ?>"><?php echo $value['nombre'] ?></option>
+
+            <?php   } ?>
+          </select>
+          </div>  
+    <div class="col">  
+ 
+    <button type="submit" class="btn btn-primary custom-button btonsub">Guardar</button> 
+    </div>     
+    </div>      
+    </form>
+               
+            </div><div><a href="https://unidadfamiliamedellin.com.co/metodologia2servidor/index.php/c_login/fc_vlogin"><button type="button" class="btn btn-primary custom-button m-2">Login UFM</button></a></div>
+ <?php echo ( $nombre == ' ' ) ? '<a href="../../../ufm/index.php/login"><button type="button" class="btn btn-primary custom-button ">Login Admin</button></a>'
                    :
                    '<ul class="navbar-nav tamano">
                     <li class="nav-item dropdown" onmouseover="showSubMenu(this)" onmouseleave="hideSubMenu(this)">
@@ -197,6 +263,8 @@ try{
                   
             
         </div>
+
+        
     </nav>
 </div>
 
@@ -205,9 +273,11 @@ try{
 <div style="background-color: #00B0F6; width: 100%; height: 40px; font-size: 25px; color: #ffffff !important" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between border-bottom fixed-top">
   <div class="elemento-lectura">Unidad Familia Medellin</div>
   <div class="mobile-buttons">
-  <label style="font-size: 15px; background: #008CC3; border: 2px solid #008CC3; border-radius: 5px" class="btn-lectura">Lectura automatica</label>
+  <!-- <label style="font-size: 15px; background: #008CC3; border: 2px solid #008CC3; border-radius: 5px" class="btn-lectura">Lectura automatica</label> -->
     <label style="font-size: 15px; background: #008CC3; border: 2px solid #008CC3; border-radius: 5px" class="borrar">Eliminar</label>
     <a style="text-decoration: none; color: white !important; padding-left: 4px"><label style="font-size: 15px; background: #008CC3; border: 2px solid #008CC3; border-radius: 5px" class="btn-editar">Agregar menú</label></a>
+    <a style="text-decoration: none; color: white !important; padding-left: 4px"><label style="font-size: 15px; background: #008CC3; border: 2px solid #008CC3; border-radius: 5px" class="btn-editarsubmenu">Agregar submenú</label></a>
+
   </div>
 </div>
 
@@ -220,7 +290,7 @@ try{
 </style>
 
 <div>
-    <span id="selected-text" value="hola">holaa</span>
+    <span id="selected-text" value="hola"></span>
     <button id="speak-btn" style="padding: 0; border: none; background: none;">
     <img src="<?php echo base_url('uploads/triangulo.png'); ?>" alt="" style="width: 20%; height: auto;">
     </button>
@@ -259,15 +329,13 @@ try{
 
     $('.delete').hide();  //borrar oculto
     $('.add').hide();
+    $('.btonactualizar').hide();
     
     $('.borrar').click(function(){
+      $('.inputsub').hide();
       $('.add').hide();
       $('.inputs').hide();
-      $('.collapse').append(`
-                 <form class="inputs" method="">  
-                 <label ></label>
-                 <button type="submit" class="btn btn-primary custom-button bton2">Ver menú</button>     
-                 </form>`);
+$('.btonactualizar').show();
       $('.delete').addClass('changeColor');
      $('.delete').show(); 
      $('.add').hide();
@@ -298,56 +366,83 @@ try{
 
    let datos=false;
 
-if(sessionStorage.getItem('audio')=='true' ){
-  $('.btn-lectura').attr("class","activo");
-  $('.activo').click(function(){
-    $('.activo').attr("class","btn-lectura")
-    sessionStorage.setItem('audio', 'false');
-    $('.btn-lectura').text('Lectura automatica');
-    location.reload();
-   })
+// if(sessionStorage.getItem('audio')=='true' ){
+//   $('.btn-lectura').attr("class","activo");
+//   $('.activo').click(function(){
+//     $('.activo').attr("class","btn-lectura")
+//     sessionStorage.setItem('audio', 'false');
+//     $('.btn-lectura').text('Lectura automatica');
+//     location.reload();
+//    })
    
+// }
+
+//  $('.btn-lectura').click(function(){
+//   $('.btn-lectura').attr("class","activo")
+//     sessionStorage.setItem('audio', 'true');
+//     $('.activo').text('Lectura automatica activa');
+//     location.reload();
+//    })
+
+$('.inputsub').hide();
+$('.btn-editarsubmenu').click(function(){
+ $('.inputs').hide(); 
+ $('.btonactualizar').hide();
+ $('.delete').hide();
+  
+  
+  $('.inputsub').show();
+ $('select').change(function(){
+    var clase = $(this).val();
+    var idopcion = $(`.${clase}`).attr('id');
+    console.log(clase, idopcion)
+    $('.btonsub').click(function(e){
+     var opcion = $('input[name="opcion2"]:checked').val();
+     console.log(opcion)
+ // e.preventDefault();
+
+if(opcion !==undefined && idopcion !==undefined && clase !== undefined){
+  let menusub = $('#menusub').val();
+//  console.log(menuText,menu);
+ e.preventDefault();
+ $.ajax({
+     url: "../../../../../ufm/index.php/submenu",
+     method: "POST",
+     data:{menusub:menusub,
+      opcion:opcion,
+       idopcion:idopcion
+           },
+     success: function(response) {
+     console.log(response)
+     location.reload();
+
+     },
+     error: function(xhr, status, error) {
+         // Manejar errores en la petición AJAX
+       //  console.log(xhr.responseText);
+     }
+ });
 }
 
- $('.btn-lectura').click(function(){
-  $('.btn-lectura').attr("class","activo")
-    sessionStorage.setItem('audio', 'true');
-    $('.activo').text('Lectura automatica activa');
-    location.reload();
-   })
+
+})
+
+
+
+  })
+
+})
+
 
     
 
-
+$('.inputs').hide();
     $('.btn-editar').click(function(){
-    
-              
-                 $('.collapse').append(`
-                 <form class="inputs" method="">  
-                 <label ></label>
-            
-                 <div class="row">
-                 <div class="col"> 
-                 <br>
-                 <br>
-                 <br>
-                  <input type="text" id="menu" placeholder="Ingresa un nuevo menu"><br>
-                  <input type="radio" name="opcion" value="1" required>Tipo Inicio<br>
-                  <input type="radio" name="opcion" value="2">Tipo Noticia<br>
-                 </div>
-                 <div class="col">  
-                 <br>
-                 <br>
-                 <br> 
-                 <button type="submit" class="btn btn-primary custom-button bton">Guardar</button> 
-                 </div>     
-                 </div>      
-                 </form>`);
-
-
-           
-
-
+      $('.inputsub').hide();
+      $('.btonactualizar').hide();
+      $('.delete').hide();
+          $('.inputs').show();
+        
           $('.bton').click(function(e){
           var opcion = $('input[name="opcion"]:checked').val();
           console.log(opcion)

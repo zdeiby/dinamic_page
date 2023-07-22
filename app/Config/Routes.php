@@ -50,6 +50,7 @@ $routes->get('nuevapagina','C_admin_page::adminPage');
 
 $routes->post('mi-controlador/mi-metodo', 'c_mas_noticias::miMetodo'); // para recibir la peticion del ajax en C_noticias
 $routes->post('mi-controlador/aprobar', 'c_nav::navE'); // para recibir la peticion del ajax en NAV para contenido editable
+$routes->post('submenu', 'c_nav::navsub'); //add submenu
 $routes->post('add-img','C_guardarImg::guardarImg2'); //guardar imagenes
 $routes->post('editar','Home::fc_textos');  //editar texto index
 $routes->post('ufmedit','C_ufm::ufm');  //editar textos UFM

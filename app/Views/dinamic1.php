@@ -144,39 +144,32 @@
 </head>
 <body>
 
-<div class="container" style="padding-top: 110px;" id="text-input">
-    <img src="https://www.unidadfamiliamedellin.com.co/unidadfamiliamedellin/resources/img/head.png" width="100%" height="100" class="pb-2">
-    <div class="row">
+<div class="container" style="padding-top: 100px;" id="text-input">
+ <!--   <img src="https://www.unidadfamiliamedellin.com.co/unidadfamiliamedellin/resources/img/head.png" width="100%" height="100" class="pb-2"> -->
+     <?php foreach ($home as $value) { 
+                 if($url == $value->slug){ ?>  
+                 <div class="row">
         <div class="col">
             <div id="carouselExampleControls" class="carousel slide mt-4" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+              
+                   <div class="carousel-item active">
                         <div class="upload-button position-relative">
-                            <img src="<?php echo base_url('uploads/fileInput1.jpg'); ?>" style="height: 400px !important; border-radius: 5%;" class="d-block w-100 imagen" alt="...">
+                            <img src="<?php echo $value->url ?>" style="height: 400px !important; border-radius: 5%;" class="d-block w-100 imagen" alt="...">
                             <input type="file" id="fileInput1" >
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="upload-button position-relative">
-                            <img src="<?php echo base_url('uploads/fileInput2.jpg'); ?>" style="height: 400px !important; border-radius: 5%;" class="d-block w-100 imagen" alt="...">
-                            <input type="file" id="fileInput2">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="upload-button position-relative">
-                            <img src="<?php echo base_url('uploads/fileInput3.jpg'); ?>" style="height: 400px !important; border-radius: 5%;" class="d-block w-100 imagen" alt="...">
-                            <input type="file" id="fileInput3">
-                        </div>
-                    </div>
+            
+                   
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <!--        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                </button>
+                </button>  -->
             </div>
         </div>
     </div>
@@ -185,26 +178,19 @@
   
 
 
-<div class="container pt-4 text-center pb-4">
-<h3 class="pb-4 elemento-lectura" style="color:#00B0F6" contenteditable="<?php echo $tof ?>" id='titulo'>
-  <?php
-  if (isset($home[0]['titulo'])) {
-    echo $home[0]['titulo'];
-  }
-  ?>
+<div class="container pt-3  pb-3">
+<h3 class="pb-2 elemento-lectura text-center" style="color:#00B0F6"  id='titulo'>
+    <?php echo $value->titulo ?>
 </h3>
   <div class="row">
-    <div class="col-md-6">
-      <div class="container pt-4 elemento-lectura">
-        <p contenteditable="<?php echo $tof ?>" id="texto">
-        <?php 
-            if(isset($home[0]['texto'])){
-           echo $home[0]['texto'];
-            }?> 
+    <div class="col">
+      <div class="container  elemento-lectura">
+        <p  id="texto">
+        <?php echo $value->texto ?>
         </p>
       </div>
     </div>
-    <div class="col-md-6">
+   <!-- <div class="col-md-6">
       <div id="carouselExampleControls1" class="carousel slide mt-4" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -236,24 +222,56 @@
         </button>
       </div>
     </div>
-  </div>
+                 --> 
+                
+ </div>
 </div>
-<div class="col text-center pb-3">
-    <?php if( $tof==='true') { 
-      echo '
-      <form>
-      <button class="btn btn-primary actualizar" style="background:#00B0F6 !important">Guardar</button>
-      </form>     ';
-    }
-    ?>
-    </div>
+
 
        <!-- <img width="80%"src="https://cdnwordpresstest-f0ekdgevcngegudb.z01.azurefd.net/es/wp-content/uploads/2022/09/unidad-familia-4.jpg" alt=""> -->
     </div>
-    <div class="row">
+  
+  </div>
+  <div class="text-center pb-4 pt-4">
+        <button style="background:#00B0F6; border:none;" type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Editar
+        </button>
+      </div>  
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Editar</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form>
+      <div class="modal-body">
+        
+            <input type="text" style="display:none" name="id" value="<?php echo $value->id_textos?>">
+            <label>Imagen URL</label>
+            <input type="text" class="form-control" name="url" id="url" value="<?php echo $value->url?>">
+            <label>Titulo</label>
+            <input type="text" class="form-control" name="titulo" id="titulo" value="<?php echo $value->titulo?>">
+            <label>Texto</label>
+            <textarea type="text" class="form-control" name="texto" id="texto" value="<?php echo $value->texto?>"></textarea>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </div>
+    </form>
     </div>
   </div>
 </div>
+
+      <!-- FIN MODAL PARA EDITAR -->
+
+<?php }
+              } ?>
 </div>
 
 

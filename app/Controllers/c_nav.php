@@ -35,13 +35,33 @@ class c_nav extends BaseController{
             $ultimoInsertado=$modelNav->insert(['nombre'=> $menu]);
             $ultimoSubmenu=$submenu->insert(['submenu' => $menu, 'created_by' => $ultimoInsertado, 'slug' => $textoSinEspacios , 'opcion'=>$cadena1]);
             $textos->insert(['titulo'=>'Ingrese un titulo','texto'=>'Ingrese un texto','text_by'=>$ultimoSubmenu,'url'=>'https://static.vecteezy.com/system/resources/thumbnails/002/282/910/small/elegant-white-background-free-vector.jpg']);
+            clearstatcache();
         };
       
         
         // Insertar en la tabla M_submenu
       //  
   
-      echo $tipo;
+      
+    }
+
+    public function navsub(){
+        $menu= $this->request->getVar('menusub');
+        $idopcion = $this->request->getVar('idopcion');
+        $opcion = $this->request->getVar('opcion');
+        $cadena1 = strval($opcion);
+
+        $modelNav=new M_menu();
+        $submenu=new M_submenu();
+        $textos=new M_textos();
+        $textoSinEspacios = str_replace(' ', '-', $menu);
+        if($menu != 'Selecciona un menú'){
+           // $ultimoInsertado=$modelNav->insert(['nombre'=> $menu]); No se inserta por que ya existe
+            $ultimoSubmenu=$submenu->insert(['submenu' => $menu, 'created_by' => $idopcion, 'slug' => $textoSinEspacios , 'opcion'=>$cadena1]);
+            $textos->insert(['titulo'=>'Ingrese un titulo','texto'=>'Ingrese un texto','text_by'=>$ultimoSubmenu,'url'=>'https://static.vecteezy.com/system/resources/thumbnails/002/282/910/small/elegant-white-background-free-vector.jpg']);
+            clearstatcache();
+        };
+      
     }
 
     public function destroySession(){

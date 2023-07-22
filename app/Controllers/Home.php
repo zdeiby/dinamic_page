@@ -32,7 +32,7 @@ class Home extends BaseController
         
         // Hacer la unión y seleccionar las columnas requeridas
         $builder->join(  'submenu B', 'A.id = B.created_by', 'right');
-        $builder->select('A.id, B.id_sub, A.nombre, B.submenu, B.slug,B.opcion');
+        $builder->select('A.id, B.id_sub, A.nombre, B.submenu, B.slug,B.opcion, B.created_by');
 
         // Ejecutar la consulta
         $results = $builder->get()->getResult();
