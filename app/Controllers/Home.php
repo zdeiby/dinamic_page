@@ -24,18 +24,21 @@ class Home extends BaseController
     public function index()
     {   
 
-        // Cargar la configuración de la base de datos
-        $db = Config::connect();
+      $db = Config::connect();
+      $builder = $db->table('menu A');
+      // Hacer la unión y seleccionar las columnas requeridas
+      $builder->join(  'submenu B', 'A.id = B.created_by', 'right');
+      $builder->select('A.id, B.id_sub, A.nombre, B.submenu, B.slug , B.opcion, B.created_by');
+      
+      $results = $builder->get()->getResult();
 
-        // Crear una nueva instancia de la clase QueryBuilder
-        $builder = $db->table('menu A');
-        
-        // Hacer la unión y seleccionar las columnas requeridas
-        $builder->join(  'submenu B', 'A.id = B.created_by', 'right');
-        $builder->select('A.id, B.id_sub, A.nombre, B.submenu, B.slug,B.opcion, B.created_by');
+      $dbTexto = Config::connect();
+      $builderText = $db->table('submenu A');
+      // Hacer la unión y seleccionar las columnas requeridas
+      $builderText->join(  'textos B', 'A.id_sub = B.text_by', 'right');
+      $builderText->select('B.titulo, B.texto, B.url, A.submenu, A.slug, B.id_textos,A.id_sub, A.opcion,  A.created_by');
 
-        // Ejecutar la consulta
-        $results = $builder->get()->getResult();
+      $resultsText = $builderText->get()->getResult(); 
 
      
         
@@ -44,7 +47,8 @@ class Home extends BaseController
       $send=$modelNav->findAll();
       $datos=['datosNav'=>$this->session->get(),
                           "nav"=>$results,
-                         "menu"=> $send];
+                         "menu"=> $send,
+                         "nav2"=>$resultsText];
    
       $inicio=new M_inicio();
       $inicioAll=$inicio->findAll();

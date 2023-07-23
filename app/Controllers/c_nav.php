@@ -63,6 +63,21 @@ class c_nav extends BaseController{
         };
       
     }
+    public function naveliminarsub(){
+        $ideliminar= $this->request->getVar('ideliminar');
+        $ideliminarnav= $this->request->getVar('ideliminarnav');
+        $textos=new M_textos();
+        $textos->delete( $ideliminar);
+        $submenu=new M_submenu();
+        $submenu->delete($ideliminarnav);
+
+    }
+
+public function naveliminarmenu(){
+    $modelmenu=new M_menu();
+    $ideliminarmenu= $this->request->getVar('ideliminar');
+    $modelmenu->delete($ideliminarmenu);
+}
 
     public function destroySession(){
         $confirm= $this->request->getVar('session');

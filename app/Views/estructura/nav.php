@@ -96,6 +96,9 @@ try{
 .delete{
   color:white;
 }
+.deletea{
+  color:white;
+}
 .changeColor{
   color:red;
   display: flex;
@@ -158,19 +161,20 @@ try{
                 <ul class="navbar-nav tamano">
                   <?php foreach ($menu as $value) { ?>
                 <li class="nav-item dropdown inicio d1"  onmouseover="showSubMenu(this)" onmouseleave="hideSubMenu(this)">
-                       <b class="delete ">x</b>
-                <label class="nav-link dropdown " dato="m1"  id="navbarDropdown"  role="button" data-bs="dropdown" aria-expanded="false" contenteditable="<?php echo $tof ?>">
+                       <b class="deletea "  data-info=<?php echo json_encode($value['id'])?>>x</b>
+                <label class="nav-link dropdown "   id="navbarDropdown"  role="button" data-bs="dropdown" aria-expanded="false" contenteditable="<?php echo $tof ?>">
                           <label id=""  class="elemento-lectura"><?php echo $value['nombre'] ?></label>
               </label>  
                 <ul class="dropdown-menu submenu text-center div1" aria-labelledby="navbarDropdown">
-                      
-                        <?php foreach($nav as $submenue) {
+                      <?php
+                         foreach($nav2 as $submenue) {
                         if($submenue->created_by == $value['id'] ) { ?> 
-                            <li class="sd1"><b  class="delete b" >x</b><a id="sm1" dato="sm1" class="dropdown-item liT elemento-lectura " href="../../../ufm/index.php/<?php echo $submenue->opcion ?>/<?php  echo $submenue->slug ?>"contenteditable="<?php echo $tof ?>"><?php echo $submenue->submenu ?></a></li>
+                            <li class="sd1"><b  class="delete b" data-infonav=<?php echo json_encode($submenue->id_sub)?> data-info=<?php echo json_encode($submenue->id_textos)?> >x</b><a id="sm1" dato="sm1" class="dropdown-item liT elemento-lectura " href="../../../ufm/index.php/<?php echo $submenue->opcion ?>/<?php  echo $submenue->slug ?>"contenteditable="<?php echo $tof ?>"><?php echo $submenue->submenu ?></a></li>
                            <!-- <li class="sd2"><b  class="delete b" >x</b><a dato="sm2" class="dropdown-item liT elemento-lectura " href="../../../ufm/index.php/editar-inicio"contenteditable="<?php echo $tof ?>">Modificar inicio</a></li> -->
                           <?php 
                         }
-                        } ?>
+                        } 
+                      ?>
                         </ul>
                     </li>
 
@@ -226,7 +230,7 @@ try{
           <select class="custom-select">
             <option>Selecciona un menú</option>
           <?php foreach ($menu as $value) { echo $value['nombre']?>
-            <option class="<?php echo$value['nombre'] ?>" id="<?php echo$value['id'] ?>" value="<?php echo $value['nombre'] ?>"><?php echo $value['nombre'] ?></option>
+            <option class="<?php echo$value['nombre'] ?>" id="<?php echo $value['id'] ?>" value="<?php echo $value['nombre'] ?>"><?php echo $value['nombre'] ?></option>
 
             <?php   } ?>
           </select>
@@ -335,32 +339,78 @@ try{
       $('.inputsub').hide();
       $('.add').hide();
       $('.inputs').hide();
-$('.btonactualizar').show();
+      $('.btonactualizar').show();
       $('.delete').addClass('changeColor');
+      $('.deletea').addClass('changeColor');
      $('.delete').show(); 
      $('.add').hide();
      $(document).ready(function () {
-      let confirmar=confirm("¿Estas seguro que quieres eliminar items?");
-      if(confirmar){ 
-        $('.tamano li b').click(function () {
-             $(this).next('label').hide();
-              $(this).hide();
-              console.log($(this).next('label'));   
-              sessionStorage.setItem('menu','');
-              sessionStorage.setItem($(this).next('label').attr('dato'),$(this).next('label').text());
-            })
+      let confirmar=confirm("¿Estas seguro que quieres eliminar items?. Para eliminar un menú debe eliminar primero todos los submenú");
+      
+    $('.deletea').click(function () {
+       
+            
+         if(confirmar){
+            let info= $(this).data('info');
+           console.log(info)
+          
+          // $(this).hide();
+          
+            
+               $.ajax({
+                   url: "../../../../../ufm/index.php/menueliminar",
+                   method: "POST",
+                   data:{ideliminar:info,
+                         },
+                   success: function(response) {
+                   console.log(response)
+                   $(this).next('label').hide();
+                   $(this).hide();
+                   $(this).next('a').hide();
+                   location.reload();
+                   },
+                   error: function(xhr, status, error) {
+                       // Manejar errores en la petición AJAX
+                     //  console.log(xhr.responseText);
+                     alert('elimina primero los submenús');
+                   }
+  });
+            
+         }
+       });
+
   
 
-        $('.tamano .b ').click(function () {
+        $('.delete').click(function () {
+         
           if(confirmar){
-              $(this).next('a').hide();
-              $(this).hide();
-              console.log($(this).next('label'));  
-              sessionStorage.setItem($(this).next('a').attr('dato'),$(this).next('a').text());
+             let info= $(this).data('info');
+             let infonav= $(this).data('infonav');
+            console.log(infonav)
+            
+           // $(this).hide();
+           
+             
+               $.ajax({
+                   url: "../../../../../ufm/index.php/subeliminar",
+                   method: "POST",
+                   data:{ideliminar:info,
+                          ideliminarnav:infonav,
+                         },
+                   success: function(response) {
+                    $(this).next('a').hide();
+                   console.log(response)
+                   location.reload();
+                   },
+                   error: function(xhr, status, error) {
+                       // Manejar errores en la petición AJAX
+                     //  console.log(xhr.responseText);
+                   }
+  });
              
           }
         });
-      }
+      
     });
     })
 

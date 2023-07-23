@@ -34,7 +34,7 @@ class C_dinamic2 extends BaseController
         $builderText = $db->table('submenu A');
         // Hacer la unión y seleccionar las columnas requeridas
         $builderText->join(  'textos B', 'A.id_sub = B.text_by', 'right');
-        $builderText->select('B.titulo, B.texto, B.url, A.submenu, A.slug, B.id_textos');
+        $builderText->select('B.titulo, B.texto, B.url, A.submenu, A.slug, B.id_textos,A.id_sub, A.opcion,  A.created_by');
         
         $resultsText = $builderText->get()->getResult(); 
 
@@ -70,7 +70,8 @@ class C_dinamic2 extends BaseController
         $datos=['datosNav'=>$this->session->get(),
                                   "nav"=>$results,
                                  "menu"=> $send,
-                                 "url"=>$url];
+                                 "url"=>$url,
+                                 "nav2"=>$resultsText];
           
         return view('estructura/nav',$datos).view('dinamic2',$datosView).view('estructura/footer');
     }
