@@ -5,6 +5,7 @@ use App\Models\userModel;
 use App\Models\M_textos;
 use App\Models\M_menu;
 use App\Models\M_inicio;
+use App\Models\M_footer;
 use CodeIgniter\Database\Config;
 use CodeIgniter\Database\Query;
 
@@ -58,13 +59,15 @@ class Home extends BaseController
                  ];
 
 
-    
-      return view('estructura/nav',$datos).view('welcome_message',$datosView). view('estructura/footer');
+      $footer=new M_footer();
+      $footerdata['datosfooter']=$footer->findAll();
+
+      return view('estructura/nav',$datos).view('welcome_message',$datosView). view('estructura/footer',$footerdata);
     }
     public function fc_textos(){
       $titulo = $this->request->getVar('titulo');
       $texto = $this->request->getVar('texto');
-      $data=['id'=>1,
+      $data=['id'=>2,
             'titulo'=>$titulo,
             'texto'=>$texto];
       $model=new M_inicio();

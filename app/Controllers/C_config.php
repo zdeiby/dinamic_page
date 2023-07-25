@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 use App\Models\M_menu;
+use App\Models\M_footer;
 use CodeIgniter\Database\Config;
 use CodeIgniter\Database\Query;
 
@@ -36,8 +37,11 @@ class C_config extends BaseController{
                                   "nav"=>$results,
                                  "menu"=> $send,
                                  "url"=>$url];
-        
-        return view('estructura/nav',$datosNav).view('config').view('estructura/footer');
+                                 
+        $footer=new M_footer();
+        $footerdata['datosfooter']=$footer->findAll();
+
+        return view('estructura/nav',$datosNav).view('config').view('estructura/footer',$footerdata);
 }
     }
     

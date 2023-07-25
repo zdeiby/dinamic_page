@@ -39,6 +39,7 @@ public function guardarImg2()
         // Construir la URL del archivo
         $url = base_url('uploads/' . $newName);
         clearstatcache();
+        clearstatcache();
         // Devolver la URL como respuesta
         return $this->response->setJSON(['url' => $url]);
     } else {

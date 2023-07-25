@@ -3,6 +3,7 @@ namespace App\Controllers;
 use App\Models\userModel;
 use App\Models\M_textos;
 use App\Models\M_menu;
+use App\Models\M_footer;
 use CodeIgniter\Database\Config;
 use CodeIgniter\Database\Query;
 
@@ -67,7 +68,10 @@ class C_dinamic1 extends BaseController
                     "tof"=>"true",
                     "home"=> $resultsText
                    ];
-        return view('estructura/nav',$datos).view('dinamic1',$datosView).view('estructura/footer');
+
+        $footer=new M_footer();
+        $footerdata['datosfooter']=$footer->findAll();
+        return view('estructura/nav',$datos).view('dinamic1',$datosView).view('estructura/footer',$footerdata);
     }
 
 }
